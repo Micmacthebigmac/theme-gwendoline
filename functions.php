@@ -1,6 +1,6 @@
 <?php
 
-function alphaweb_register_assets() {
+function ThemeGwendolineMatos_register_assets() {
     
     // Déclarer style.css à la racine du thème
     wp_enqueue_style( 
