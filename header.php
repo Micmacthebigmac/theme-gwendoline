@@ -3,33 +3,41 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Favicon -->
+    <!-- <link rel="icon" type="image/png" href="" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Google Font Archivo -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&display=swap" rel="stylesheet">
     
     <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-    
-    <?php wp_body_open(); ?>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="main-menu">
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'main-menu',
-                'container' => false,
-                'menu_class' => '',
-                'fallback_cb' => '__return_false',
-                'items_wrap' => '<ul id="%1$s" class="navbar-nav me-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
-                'depth' => 2,
-                'walker' => new bootstrap_5_wp_nav_menu_walker()
-            ));
-            ?>
+<?php wp_body_open(); ?>
+
+ <nav class="navbar">
+        <a href="#navigation-menu" class="nav-logo js-anchor-link"><img src="<?php bloginfo('url'); ?>/wp-includes/images/logo.png" alt=""></a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#parcours" class="nav-link js-anchor-link">Parcours</a>
+            </li>
+            <li class="nav-item">
+                <a href="#actualites" class="nav-link js-anchor-link">Actualités</a>
+            </li>
+            <li class="nav-item">
+                <a href="#sponsors" class="nav-link js-anchor-link">Sponsors</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link js-anchor-link">Contact</a>
+            </li> 
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-    </div>
-</nav>
+    </nav>

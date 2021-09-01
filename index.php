@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<<<<<<< HEAD
 
 
 <div class="fond-rouge">
@@ -25,5 +26,8 @@
 <div class="fond-rouge">
     <h1 class="texte-blanc"><?php bloginfo('description'); ?></h1> 
 </div>
+=======
+<h1>Coucou Nathan et Hervé</h1>
+>>>>>>> e997c9ed00180df0411b670886a8c5ff37aa37c9
 
 <?php get_footer(); ?>
