@@ -8,6 +8,14 @@ Requires at least: WordPress 5.0
 Version: 1.0
 */
 
-body {
+.fond-rouge {
     background-color: red;
+}
+
+.fond-jaune{
+    background-color:yellow;
+}
+
+.texte-blanc{
+    color: white;
 }
