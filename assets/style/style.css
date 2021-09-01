@@ -123,18 +123,17 @@ color: #482ff7;
 }
 }
 
+/* ----------------------------------------------------------- INDEX GWENDOLINE MATOS */
+
+#headerGwen {
+  height: 100vh;
+  width: 100%;
+  border: aqua solid 1px;
+  background: linear-gradient(90deg, #333C86 0%, rgba(143, 0, 0, 0.77) 100%);
+}
+
 /* ----------------------------------------------------------- FOOTER */
 #footer {
-<<<<<<< HEAD:style.css
-  display: grid;
-  grid-template-rows: 25% 30% 8% 37%;
-  justify-content: center;
-  height: 98vh;
-  background-image: url(../../../wp-includes/images/footer.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-=======
     display: grid;
     grid-template-rows: 25% 30% 8% 37%;
     justify-content: center;
@@ -143,7 +142,6 @@ color: #482ff7;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
->>>>>>> 291d69c9106dcc9f0012b396b62984c7fe123c5b:assets/style/style.css
 }
 
 #footer input::placeholder {
