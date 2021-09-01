@@ -1,15 +1,14 @@
 <?php
 
-function ThemeGwendolineMatos_register_assets() {
-    
-    // Déclarer style.css à la racine du thème
-    wp_enqueue_style( 
-        'ThemeGwendolineMatos-wordpress-style',
-        get_stylesheet_uri(), 
-        array(), 
-        '1.0'
-    );
-  	
+// Lier le style.css
+wp_enqueue_style( 
+    'style.css',
+    get_stylesheet_uri(), 
+    array(), 
+    '1.0'
+);
 
-}
-add_action( 'wp_enqueue_scripts', 'Theme Gwendoline Matos_register_assets' );
+// Lier le JS
+wp_enqueue_script( 
+    'js/script.js',
+);
