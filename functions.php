@@ -2,12 +2,12 @@
 function register_assets() {
 
 // Lier le style.css
-wp_enqueue_style( 
-    'wordpress-style',
-    get_stylesheet_uri(), 
-    array(), 
-    '1.0'
-);
+// wp_enqueue_style( 
+//     'assets/style/style.css',
+//     get_stylesheet_uri(), 
+//     array(), 
+//     '1.0'
+// );
 
 // Lier le JS
 wp_enqueue_script( 

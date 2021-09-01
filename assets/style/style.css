@@ -15,8 +15,13 @@ Version: 1.0
 
 /* FONTS */
 @font-face {
+<<<<<<< HEAD:style.css
   font-family: "Roboto";
   src: url(../../../wp-includes/fonts/Roboto-Regular.ttf);
+=======
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+>>>>>>> 291d69c9106dcc9f0012b396b62984c7fe123c5b:assets/style/style.css
 }
 
 /* ----------------------------------------------------------- HEADER */
@@ -125,6 +130,7 @@ color: #482ff7;
 
 /* ----------------------------------------------------------- FOOTER */
 #footer {
+<<<<<<< HEAD:style.css
   display: grid;
   grid-template-rows: 25% 30% 8% 37%;
   justify-content: center;
@@ -133,6 +139,16 @@ color: #482ff7;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+=======
+    display: grid;
+    grid-template-rows: 25% 30% 8% 37%;
+    justify-content: center;
+    height: 98vh;
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+>>>>>>> 291d69c9106dcc9f0012b396b62984c7fe123c5b:assets/style/style.css
 }
 
 #footer input::placeholder {
