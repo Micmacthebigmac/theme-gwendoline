@@ -16,7 +16,7 @@ Version: 1.0
 /* FONTS */
 @font-face {
     font-family: "Roboto";
-    src: url(Roboto-Regular.ttf);
+    src: url(../../../wp-includes/fonts/Roboto-Regular.ttf);
 }
 
 /* ----------------------------------------------------------- HEADER */
