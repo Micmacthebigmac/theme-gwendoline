@@ -15,13 +15,8 @@ Version: 1.0
 
 /* FONTS */
 @font-face {
-<<<<<<< HEAD:style.css
-  font-family: "Roboto";
-  src: url(../../../wp-includes/fonts/Roboto-Regular.ttf);
-=======
     font-family: "Roboto";
     src: url(../fonts/Roboto-Regular.ttf);
->>>>>>> 291d69c9106dcc9f0012b396b62984c7fe123c5b:assets/style/style.css
 }
 
 /* ----------------------------------------------------------- HEADER */
